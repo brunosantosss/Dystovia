@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+.footer-icon-container img {
+    margin: 0px 15px;
+    margin-bottom: 8px;
+}
+
+.footer-credit-container {
+    border-top: var(--white-color) solid 1.5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.footer-credit-container p {
+    margin-top: 8px;
+}

@@ -1,0 +1,18 @@
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 20px;
+    background-color: var(--main-color);
+}
+
+.nav-brand {
+    width: 50px;
+}
+
+.nav-links > a {
+    color: var(--white-color);
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
