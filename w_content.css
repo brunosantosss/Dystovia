@@ -1,0 +1,41 @@
+main {
+    display: flex;
+}
+
+.section-topics {
+    width: 13%;
+    height: 100%;
+    padding: 10px;
+    border-right: var(--main-color) double 1.5px;
+    border-radius: 8px;
+}
+
+.section-container {
+    width: 87%;
+    height: 100%;
+}
+/* */
+
+.topics-title {
+    font-size: 20px;
+    border-bottom: var(--subtext-color) solid 1.5px;
+}
+
+.topics-link {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0px;
+    font-size: 18px;
+}
+/* */
+
+.section-content {
+    padding: 0px 12px;
+}
+
+.section-title {
+    font-size: 28px;
+    display: inline-block;
+    border-bottom: double 2.5px;
+    border-radius: 4px;
+}
